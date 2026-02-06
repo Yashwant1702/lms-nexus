@@ -1,0 +1,20 @@
+// Export all hooks from a single file for easy imports
+export { useAuth } from './useAuth';
+export { useCourses } from './useCourses';
+export { useNotifications } from './useNotifications';
+export { useDebounce } from './useDebounce';
+export { useClickOutside } from './useClickOutside';
+export { useLocalStorage } from './useLocalStorage';
+export { useMediaQuery, useIsMobile, useIsTablet, useIsDesktop, useIsDarkMode } from './useMediaQuery';
+export { useIntersectionObserver } from './useIntersectionObserver';
+export { useScrollPosition, useScrollPast } from './useScrollPosition';
+export { useWindowSize } from './useWindowSize';
+export { useOnlineStatus } from './useOnlineStatus';
+export { useClipboard } from './useClipboard';
+export { useTimer } from './useTimer';
+export { useForm } from './useForm';
+export { usePagination } from './usePagination';
+export { useToggle } from './useToggle';
+export { useAsync } from './useAsync';
+export { usePrevious } from './usePrevious';
+export { useKeyPress } from './useKeyPress';
